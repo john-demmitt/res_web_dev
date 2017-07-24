@@ -1,17 +1,16 @@
 {
   "name": "res_web_dev",
   "version": "1.0.0",
-  "description": "website production environment",
-  "author": "jd",
-  "license": "MIT"
-}
-
-{
-  "private": true,
+  "main": "index.js",
+  "repository": "https://github.com/john-demmitt/res_web_dev.git",
+  "author": "<john_demmitt@outlook.com>",
+  "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^6.5.4"
-  },
-  "browserslist": [
-    "> 1%",
-  ]
+    "autoprefixer": "^7.1.2",
+    "browserslist": "^2.2.2",
+    "grunt-svg-toolkit": "^0.1.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-svgstore": "^6.1.0",
+    "svg-injector-2": "^2.1.1"
+  }
 }
